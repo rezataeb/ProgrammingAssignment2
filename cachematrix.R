@@ -42,3 +42,21 @@ cacheSolve <- function(x, ...) {
 
 ## Return a matrix that is the inverse of 'x'
 }
+
+
+## simple run : 
+##> data <- rbind (c(1,3),c(2,4))
+##> newmatrix <- makeCacheMatrix(data)
+##> matinverse <- cacheSolve(newmatrix)
+##> matinverse
+##     [,1] [,2]
+##[1,]   -2  1.5
+##[2,]    1 -0.5
+##> matinverse <- cacheSolve(newmatrix)
+##retrieving cached data
+##> matinverse
+##   [,1] [,2]
+##[1,]   -2  1.5
+##[2,]    1 -0.5
+##> 
+
